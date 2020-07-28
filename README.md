@@ -1,1 +1,1 @@
-A unica alteração que deve ser feita no app, é no arquivo db_connect, configurando as credenciais do banco de dados utilizado, e adicionando o nome da tabela que sera usada para salvar os dados
+A unica alteração que deve ser feita no app, é no arquivo db_connect, localizado na pasta db, configurando as credenciais do banco de dados utilizado, e adicionando o nome da tabela que sera usada para salvar os dados
