@@ -21,16 +21,9 @@ include_once './db/db_connect.php';
         <thead class="cabecalho">
             <tr >
                 <td> Nome do Local</td>
-                <td>CEP</td>
-                <td>Logradouro</td>
-                <td>Complemento</td>
-                <td>Numero</td>
-                <td>Bairro</td>
-                <td>UF</td>
-                <td>Cidade</td>
                 <td>Data</td>
-                <td class="col-actions">Editar</td>
-                <td class="col-actions">Deletar</td>
+                <td class="col-actions"></td>
+                <td class="col-actions"></td>
             </tr>
         </thead>
         <tbody>
@@ -45,13 +38,6 @@ include_once './db/db_connect.php';
                     endif;
                     ?>">
                     <td><?php echo $dados['nome']; ?> </td>
-                    <td><?php echo $dados['cep']; ?> </td>
-                    <td><?php echo $dados['logradouro']; ?> </td>
-                    <td><?php echo $dados['complemento']; ?> </td>
-                    <td><?php echo $dados['numero']; ?> </td>
-                    <td><?php echo $dados['bairro']; ?> </td>
-                    <td><?php echo $dados['uf']; ?> </td>
-                    <td><?php echo $dados['cidade']; ?> </td>
                     <td><?php echo $dados['data']; ?> </td>
                     <td class="col-actions">
                         <a href="forms/editar.php?id=<?php echo $dados['id']; ?>">

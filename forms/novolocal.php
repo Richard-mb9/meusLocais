@@ -28,18 +28,6 @@
                     <input type="text" name="logradouro"  id="input_logradouro" required>
                 </p>
                 <p class="item-form">
-                    <label for="">Bairro:</label>  
-                    <input type="text" name="bairro" id="input_bairro" required>
-                </p>
-                <p class="item-form">
-                    <label for="">Cidade: </label> 
-                    <input type="text" name="cidade" id="input_cidade" required>
-                </p>
-                <p class="item-form">
-                    <label for="">UF: </label> 
-                    <input type="text" name="uf" id="input_uf" required>
-                </p>
-                <p class="item-form">
                     <label for="">Complemento:</label>  
                     <input type="text" name="complemento" id="input_complemento" required>
                 </p>
@@ -47,6 +35,20 @@
                     <label for="">Numero:</label>  
                     <input type="text" name="numero" id="input_numero" required>
                 </p>
+                <p class="item-form">
+                    <label for="">Bairro:</label>  
+                    <input type="text" name="bairro" id="input_bairro" required>
+                </p>
+                <p class="item-form">
+                    <label for="">UF: </label> 
+                    <input type="text" name="uf" id="input_uf" required>
+                </p>
+                <p class="item-form">
+                    <label for="">Cidade: </label> 
+                    <input type="text" name="cidade" id="input_cidade" required>
+                </p>
+                
+                
                 <p class="item-form">
                     <label for="">Data da Visita:</label>  
                     <input type="date" name="data" id="input_data" required>

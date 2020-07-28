@@ -45,21 +45,6 @@
                     value="<?php echo $dados['logradouro']; ?>" required>
                 </p>
                 <p class="item-form" >
-                    Bairro: 
-                    <input type="text"  name="bairro" id="input_bairro" 
-                    value="<?php echo $dados['bairro']; ?>" required>
-                </p>
-                <p class="item-form" >
-                    Cidade: 
-                    <input type="text"  name="cidade" id="input_cidade" 
-                    value="<?php echo $dados['cidade']; ?>" required>
-                </p>
-                <p class="item-form" >
-                    UF: 
-                    <input type="text"  name="uf" id="input_uf" 
-                    value="<?php echo $dados['uf']; ?>" required>
-                </p>
-                <p class="item-form" >
                     Complemento: 
                     <input type="text" name="complemento" id="input_complemento"
                     value="<?php echo $dados['complemento']; ?>" required>
@@ -69,6 +54,23 @@
                     <input type="text"  name="numero" id="input_numero" 
                     value="<?php echo $dados['numero']; ?>" required>
                 </p>
+                <p class="item-form" >
+                    Bairro: 
+                    <input type="text"  name="bairro" id="input_bairro" 
+                    value="<?php echo $dados['bairro']; ?>" required>
+                </p>
+                <p class="item-form" >
+                    UF: 
+                    <input type="text"  name="uf" id="input_uf" 
+                    value="<?php echo $dados['uf']; ?>" required>
+                </p>
+                <p class="item-form" >
+                    Cidade: 
+                    <input type="text"  name="cidade" id="input_cidade" 
+                    value="<?php echo $dados['cidade']; ?>" required>
+                </p>
+                
+                
                 <p class="item-form" >
                     Data da Visita: 
                     <input type="date"  name="data" id="input_data" 

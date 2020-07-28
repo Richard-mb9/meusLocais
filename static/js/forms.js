@@ -10,7 +10,7 @@ function form_submit(form){
         }
     }
     else{
-        alert("Por Favor digite o CEP")
+        alert("Favor informar o CEP para a consulta")
         return false
     }
     form.submit()
