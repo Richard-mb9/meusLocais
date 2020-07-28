@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+body{
+    
+    background-color: #dddddd;
+}
+.btn-adicionar{
+    background-color: #2f7fae;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 10px 0px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.div_conteudo{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    border: solid  1px #2f7fae;
+    background-color: white;
+    border-collapse: collapse;
+    
+}
+thead, thead td{
+    font-weight: bolder;
+    background-color: #cccccc;
+    font-size: 15px;
+}
+td{
+    padding: 5px;
+    font-size: 15px;
+    border-left: solid  1px #2f7fae;
+    border-right: solid  1px #2f7fae;
+   
+}
+tr:nth-child(even){background-color: white;}
+tr:nth-child(odd){background-color: #eeeeee;}
+.uf-mg, .uf-mg td{
+    background-color:#2f7fae ;
+    color: #ffffff;
+    
+    
+}
+.col-actions{
+    text-align: center;
+    border: none;
+}
+.btn-editar{
+    background-color: transparent;
+    border: solid 1px red;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+}
+.btn-deletar{
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+}

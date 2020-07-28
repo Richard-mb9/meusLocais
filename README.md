@@ -1,0 +1,1 @@
+A unica alteração que deve ser feita o app, é no arquivo db_connect, configurando as credenciais do banco de dados utilizado, e adicionando o nome da tabela que sera usada para salvar os dados
